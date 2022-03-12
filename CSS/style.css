@@ -1,0 +1,38 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  color: slateblue;
+  font-size: 30px;
+  font-weight: 900;
+  font-style: italic;
+  /* text-align: center; */
+  /* text-decoration: overline; */
+  text-transform: uppercase;
+}
+.header {
+  background-color: lime;
+}
+.body {
+  background-color: rgb(127, 47, 255);
+  padding: 30px;
+  border: 10px solid lime;
+}
+
+h1:hover {
+  color: chocolate;
+  background-color: crimson;
+  /* font-size: 50px; */
+}
+
+@media (max-width: 500px) {
+  body {
+    background-color: green;
+  }
+}
+
+@media (min-width: 500px) {
+  body {
+    background-color: rgb(208, 255, 0);
+  }
+}

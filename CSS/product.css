@@ -1,0 +1,18 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: #00ff00;
+  margin: 20px;
+  /* border-radius: 50%; */
+  box-shadow: 5px 5px 20px 20px rgba(0, 0, 0, 0.5);
+  /* display: flex; */
+}
+
+.container {
+  background-color: teal;
+  height: 100vh;
+  
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start ;
+}
